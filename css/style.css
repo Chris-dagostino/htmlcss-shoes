@@ -4,6 +4,10 @@
     box-sizing: border-box;    
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -42,10 +46,12 @@ nav ul li a {
     border-radius: 50%;
     font-size: 20px;
     text-decoration: none;
+    padding: 5px 10px;
+
 }
 
-nav ul li a:hover {
-    text-shadow: 2px 2px 10px #000;
+nav ul li:hover a {
+    box-shadow: 2px 2px 10px #000;
 }
 
 /*fine nav*/
@@ -69,6 +75,8 @@ h2 {
     left: 50%;
     transform: translate(-50%,-50%);
     color: yellow;
+    text-align: center;
+
 }
 
 #allstar h2 {
